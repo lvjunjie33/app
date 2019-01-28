@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="snod.com.cn.dao.UserDao" >
+    <resultMap id="BaseResultMap" type="snod.com.cn.entity.UserInfo" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="user_name" property="userName" jdbcType="VARCHAR" />
+        <result column="user_name_en" property="userName" jdbcType="VARCHAR" />
+        <result column="sex" property="sex" javaType="INTEGER"/>
+        <result column="nickname" property="nickname" jdbcType="VARCHAR" />
+        <result column="head_portrait" property="headPortrait" jdbcType="VARCHAR" />
+        <result column="department" property="department" jdbcType="VARCHAR" />
+        <result column="phone_num" property="phoneNum" jdbcType="VARCHAR" />
+        <collection property="accountInfo" ofType="AccountInfo" column="id">
+			<id column="aid" property="id"/><!-- 这里的column对应的是下面查询的别名，而不是表字段名 -->
+			<result column="user_id" property="userId"/><!-- property对应JavaBean中的属性名 -->
+			<result column="account_num" property="accountNum"/>
+			<result column="passwd" property="passwd"/>
+			<result column="account_type" property="accountType"/>
+			<result column="create_time" property="createTime"/>
+			<result column="create_user_id" property="createUserId"/>
+			<result column="create_user_name" property="createUserName"/>
+		</collection>
+		<collection property="role" ofType="Role" column="id">
+			<id column="sid" property="id"/><!-- 这里的column对应的是下面查询的别名，而不是表字段名 -->
+			<result column="sname" property="name"/><!-- property对应JavaBean中的属性名 -->
+			<result column="className" property="className"/>
+		</collection>
+    </resultMap>
+    <select id="selectByExample" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select
+        ui.id,ai.id as aid, ui.user_name,ui.user_name_en,ui.sex,ui.nickname,ui.head_portrait,ai.account_num
+        ,ui.department,ui.phone_num from user_info ui inner join account_info ai on ai.user_id=ui.id
+        where ui.id = #{id,jdbcType=INTEGER}
+    </select>
+    
+	<update id="updateUserInfo" parameterType="snod.com.cn.entity.UserInfo">
+   		update user_info ui set 
+   		ui.head_portrait=#{headPortrait,jdbcType=VARCHAR} 
+   		where 
+   		ui.id=#{id,jdbcType=INTEGER}
+    </update>
+
+	<update id="editUserInfo" parameterType="snod.com.cn.entity.UserInfo">
+		update user_info ui set
+		ui.user_name=#{userName,jdbcType=VARCHAR},
+		ui.sex=#{sex,jdbcType=VARCHAR},
+		ui.company_name=#{companyName,jdbcType=VARCHAR},
+		ui.position_name=#{positionName,jdbcType=VARCHAR},
+		ui.voiceprint=#{voiceprint,jdbcType=VARCHAR},
+		ui.department=#{department,jdbcType=VARCHAR},
+		ui.phone_num=#{phoneNum,jdbcType=VARCHAR}
+		where 
+		ui.id=#{id,jdbcType=INTEGER}
+	</update>
+<!--     <select id="getOne" parameterType="java.lang.Long" resultMap="BaseResultMap" > -->
+<!--         SELECT  -->
+<!--        <include refid="Base_Column_List" /> -->
+<!--        FROM users -->
+<!--        WHERE id = #{id} -->
+<!--     </select> -->
+
+<!--     <insert id="insert" parameterType="com.neo.entity.UserEntity" > -->
+<!--        INSERT INTO  -->
+<!--             users -->
+<!--             (userName,passWord,user_sex)  -->
+<!--         VALUES -->
+<!--             (#{userName}, #{passWord}, #{userSex}) -->
+<!--     </insert> -->
+    
+<!--     <update id="update" parameterType="com.neo.entity.UserEntity" > -->
+<!--        UPDATE  -->
+<!--             users  -->
+<!--        SET  -->
+<!--         <if test="userName != null">userName = #{userName},</if> -->
+<!--         <if test="passWord != null">passWord = #{passWord},</if> -->
+<!--         nick_name = #{nickName} -->
+<!--        WHERE  -->
+<!--             id = #{id} -->
+<!--     </update> -->
+    
+<!--     <delete id="delete" parameterType="java.lang.Long" > -->
+<!--        DELETE FROM -->
+<!--              users  -->
+<!--        WHERE  -->
+<!--              id =#{id} -->
+<!--     </delete> -->
+
+</mapper>

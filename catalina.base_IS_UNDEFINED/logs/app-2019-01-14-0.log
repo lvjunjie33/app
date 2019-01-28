@@ -1,0 +1,78 @@
+2019-01-14 09:48:35,098 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 1544 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-14 09:48:35,103 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-14 09:48:35,103 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-14 09:50:02,522 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 1928 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-14 09:50:02,522 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-14 09:50:02,522 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-14 09:50:07,715 INFO (StartupInfoLogger.java:57)- Started Application in 5.521 seconds (JVM running for 5.872)
+2019-01-14 09:50:14,353 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 4384 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-14 09:50:14,353 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-14 09:50:14,353 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-14 09:50:20,959 INFO (StartupInfoLogger.java:57)- Started Application in 6.988 seconds (JVM running for 7.454)
+2019-01-14 10:53:27,322 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 1292 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-14 10:53:27,322 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-14 10:53:27,322 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-14 10:53:34,036 INFO (StartupInfoLogger.java:57)- Started Application in 7.088 seconds (JVM running for 7.581)
+2019-01-14 11:23:58,683 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 10784 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-14 11:23:58,684 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-14 11:23:58,684 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-14 11:24:05,349 INFO (StartupInfoLogger.java:57)- Started Application in 7.037 seconds (JVM running for 7.523)
+2019-01-14 11:34:04,371 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 5780 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-14 11:34:04,372 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-14 11:34:04,372 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-14 11:34:10,865 INFO (StartupInfoLogger.java:57)- Started Application in 6.86 seconds (JVM running for 7.343)
+2019-01-14 13:02:35,030 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 11932 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-14 13:02:35,030 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-14 13:02:35,031 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-14 13:02:41,664 INFO (StartupInfoLogger.java:57)- Started Application in 6.998 seconds (JVM running for 7.487)
+2019-01-14 13:12:13,740 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 9580 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-14 13:12:13,740 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-14 13:12:13,741 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-14 13:12:20,415 INFO (StartupInfoLogger.java:57)- Started Application in 7.046 seconds (JVM running for 7.539)
+2019-01-14 13:21:45,842 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 6460 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-14 13:21:45,843 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-14 13:21:45,843 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-14 13:21:52,864 INFO (StartupInfoLogger.java:57)- Started Application in 7.39 seconds (JVM running for 7.873)
+2019-01-14 13:59:16,142 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 11380 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-14 13:59:16,143 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-14 13:59:16,143 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-14 13:59:22,773 INFO (StartupInfoLogger.java:57)- Started Application in 6.996 seconds (JVM running for 7.487)
+2019-01-14 16:09:28,132 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 12760 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-14 16:09:28,133 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-14 16:09:28,133 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-14 16:10:11,612 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 13492 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-14 16:10:11,612 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-14 16:10:11,613 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-14 16:10:18,349 INFO (StartupInfoLogger.java:57)- Started Application in 7.101 seconds (JVM running for 7.595)
+2019-01-14 16:58:03,254 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 228 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-14 16:58:03,255 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-14 16:58:03,256 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-14 16:58:09,906 INFO (StartupInfoLogger.java:57)- Started Application in 7.027 seconds (JVM running for 7.53)
+2019-01-14 16:58:43,735 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select ai.account_num,ai.account_type,ai.create_time, ai.create_user_id,ai.create_user_name,ai.id,ai.passwd, ai.phone_num,ai.user_id,ui.head_portrait,ui.nickname, ui.sex,ui.user_name,ui.user_name_en from account_info ai INNER JOIN user_info ui on ai.user_id=ui.id where ai.account_num=? and ai.passwd=? 
+2019-01-14 16:58:46,339 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 981723773@qq.com(String), c33367701511b4f6020ec61ded352059(String)
+2019-01-14 17:05:42,086 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 8728 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-14 17:05:42,087 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-14 17:05:42,087 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-14 17:05:49,194 INFO (StartupInfoLogger.java:57)- Started Application in 7.487 seconds (JVM running for 7.99)
+2019-01-14 17:06:18,969 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select ai.account_num,ai.account_type,ai.create_time, ai.create_user_id,ai.create_user_name,ai.id,ai.passwd, ai.phone_num,ai.user_id,ui.head_portrait,ui.nickname, ui.sex,ui.user_name,ui.user_name_en from account_info ai INNER JOIN user_info ui on ai.user_id=ui.id where ai.account_num=? and ai.passwd=? 
+2019-01-14 17:06:21,572 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 981723773@qq.com(String), c33367701511b4f6020ec61ded352059(String)
+2019-01-14 17:06:53,061 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 6656 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-14 17:06:53,061 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-14 17:06:53,061 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-14 17:07:00,367 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 14228 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-14 17:07:00,368 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-14 17:07:00,368 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-14 17:07:07,184 INFO (StartupInfoLogger.java:57)- Started Application in 7.192 seconds (JVM running for 7.683)
+2019-01-14 17:07:41,897 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select ai.account_num,ai.account_type,ai.create_time, ai.create_user_id,ai.create_user_name,ai.id,ai.passwd, ai.phone_num,ai.user_id,ui.head_portrait,ui.nickname, ui.sex,ui.user_name,ui.user_name_en from account_info ai INNER JOIN user_info ui on ai.user_id=ui.id where ai.account_num=? and ai.passwd=? 
+2019-01-14 17:07:44,495 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 981723773@qq.com(String), c33367701511b4f6020ec61ded352059(String)
+2019-01-14 17:07:45,512 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-14 17:09:20,379 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: update user_info ui set ui.head_portrait=? where ui.id=? 
+2019-01-14 17:09:20,414 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 65496534ae7150652c92eaac4763e337.jpg(String), 1(Integer)
+2019-01-14 17:09:20,488 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-14 17:30:00,322 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 13316 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-14 17:30:00,322 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-14 17:30:00,323 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-14 17:30:07,415 INFO (StartupInfoLogger.java:57)- Started Application in 7.466 seconds (JVM running for 7.967)
+2019-01-14 17:30:52,420 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: update user_info ui set ui.head_portrait=? where ui.id=? 
+2019-01-14 17:30:55,013 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 1547458244726.jpg(String), 1(Integer)
+2019-01-14 17:30:55,091 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1

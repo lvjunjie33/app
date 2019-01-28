@@ -1,0 +1,169 @@
+2019-01-15 09:35:13,452 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 9808 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-15 09:35:13,468 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-15 09:35:13,468 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-15 09:35:21,350 INFO (StartupInfoLogger.java:57)- Started Application in 8.409 seconds (JVM running for 9.148)
+2019-01-15 09:36:20,335 INFO (JpushService.java:57)- 极光推送结果 - {"msg_id":1557547193,"sendno":411749976,"statusCode":0},接收推送的别名列表:Abc_123
+2019-01-15 15:01:31,548 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 10176 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-15 15:01:31,548 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-15 15:01:31,549 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-15 15:01:38,402 INFO (StartupInfoLogger.java:57)- Started Application in 7.246 seconds (JVM running for 7.744)
+2019-01-15 15:02:09,403 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select ai.account_num,ai.account_type,ai.create_time, ai.create_user_id,ai.create_user_name,ai.id,ai.phone_num, ai.user_id,ui.head_portrait,ui.nickname, ui.sex,ui.user_name,ui.user_name_en from account_info ai INNER JOIN user_info ui on ai.user_id=ui.id where ai.account_num=? and ai.passwd=? 
+2019-01-15 15:02:09,542 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 981723773@qq.com(String), e10adc3949ba59abbe56e057f20f883e(String)
+2019-01-15 15:02:09,609 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 0
+2019-01-15 15:02:18,938 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select ai.account_num,ai.account_type,ai.create_time, ai.create_user_id,ai.create_user_name,ai.id,ai.phone_num, ai.user_id,ui.head_portrait,ui.nickname, ui.sex,ui.user_name,ui.user_name_en from account_info ai INNER JOIN user_info ui on ai.user_id=ui.id where ai.account_num=? and ai.passwd=? 
+2019-01-15 15:02:18,948 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 981723773@qq.com(String), c33367701511b4f6020ec61ded352059(String)
+2019-01-15 15:02:19,034 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 15:03:32,282 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select ai.account_num,ai.account_type,ai.create_time, ai.create_user_id,ai.create_user_name,ai.id,ai.phone_num, ai.user_id,ui.head_portrait,ui.nickname, ui.sex,ui.user_name,ui.user_name_en from account_info ai INNER JOIN user_info ui on ai.user_id=ui.id where ai.account_num=? and ai.passwd=? 
+2019-01-15 15:03:32,290 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 981723773@qq.com(String), c33367701511b4f6020ec61ded352059(String)
+2019-01-15 15:03:32,336 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 15:04:17,809 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select ai.account_num,ai.account_type,ai.create_time, ai.create_user_id,ai.create_user_name,ai.id,ai.phone_num, ai.user_id,ui.head_portrait,ui.nickname, ui.sex,ui.user_name,ui.user_name_en from account_info ai INNER JOIN user_info ui on ai.user_id=ui.id where ai.account_num=? and ai.passwd=? 
+2019-01-15 15:04:17,818 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 981723773@qq.com(String), c33367701511b4f6020ec61ded352059(String)
+2019-01-15 15:04:17,860 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 15:13:24,074 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select ai.account_num,ai.account_type,ai.create_time, ai.create_user_id,ai.create_user_name,ai.id,ai.phone_num, ai.user_id,ui.head_portrait,ui.nickname, ui.sex,ui.user_name,ui.user_name_en from account_info ai INNER JOIN user_info ui on ai.user_id=ui.id where ai.account_num=? and ai.passwd=? 
+2019-01-15 15:13:24,082 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 981723773@qq.com(String), c33367701511b4f6020ec61ded352059(String)
+2019-01-15 15:13:24,120 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 16:07:14,622 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 12888 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-15 16:07:14,622 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-15 16:07:14,622 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-15 16:07:21,490 INFO (StartupInfoLogger.java:57)- Started Application in 7.261 seconds (JVM running for 7.761)
+2019-01-15 16:07:43,433 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select sp.app_android_upgrade_version, sp.app_android_upgrade_version_introduction, sp.app_android_upgrade_version_view, sp.app_ios_upgrade_version, sp.app_ios_upgrade_version_introduction, sp.app_ios_upgrade_version_view, sp.id, sp.is_new, sp.upgrade_content from sysparam sp where sp.is_new=1 
+2019-01-15 16:07:43,580 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 
+2019-01-15 16:07:43,626 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 17:35:00,960 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 14292 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-15 17:35:00,961 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-15 17:35:00,961 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-15 17:35:08,068 INFO (StartupInfoLogger.java:57)- Started Application in 7.491 seconds (JVM running for 7.987)
+2019-01-15 17:35:21,375 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-15 17:35:23,984 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: junjie.lv@3nod.com.cn(String)
+2019-01-15 17:35:24,979 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 17:35:35,166 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-15 17:35:35,172 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: liuyj@ifitmix.com(String)
+2019-01-15 17:35:35,182 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 17:35:48,077 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-15 17:35:48,084 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425704@qq.com(String)
+2019-01-15 17:35:48,093 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 17:36:51,652 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-15 17:36:51,658 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425704@qq.com(String)
+2019-01-15 17:36:51,668 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 17:36:56,029 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into account_info (id,account_num,passwd,phone_num,account_type, create_time,create_user_id,create_user_name) values (?, ?, ?, ?, ?, ?, ?, ?) 
+2019-01-15 17:36:56,329 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 0(Integer), 508425704@qq.com(String), e10adc3949ba59abbe56e057f20f883e(String), null, 1(Integer), 2019-01-15 17:36:54.475(Timestamp), 0(Integer), null
+2019-01-15 17:36:56,369 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-15 17:50:05,552 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 10528 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-15 17:50:05,553 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-15 17:50:05,553 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-15 17:50:12,137 INFO (StartupInfoLogger.java:57)- Started Application in 6.953 seconds (JVM running for 7.449)
+2019-01-15 17:52:33,256 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 3080 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-15 17:52:33,256 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-15 17:52:33,257 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-15 17:52:40,141 INFO (StartupInfoLogger.java:57)- Started Application in 7.259 seconds (JVM running for 7.757)
+2019-01-15 17:53:08,033 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-15 17:53:10,620 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: liuyj@ifitmix.com(String)
+2019-01-15 17:53:11,621 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 17:53:51,732 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 10820 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-15 17:53:51,732 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-15 17:53:51,732 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-15 17:53:58,566 INFO (StartupInfoLogger.java:57)- Started Application in 7.205 seconds (JVM running for 7.695)
+2019-01-15 17:54:29,870 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-15 17:54:32,439 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425704@qq.com(String)
+2019-01-15 17:54:33,432 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 17:55:03,356 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 2300 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-15 17:55:03,357 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-15 17:55:03,357 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-15 17:55:10,511 INFO (StartupInfoLogger.java:57)- Started Application in 7.525 seconds (JVM running for 8.016)
+2019-01-15 17:55:21,384 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-15 17:55:23,957 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425704@qq.com(String)
+2019-01-15 17:55:24,991 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 17:57:13,105 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 4452 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-15 17:57:13,106 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-15 17:57:13,106 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-15 17:57:20,396 INFO (StartupInfoLogger.java:57)- Started Application in 7.672 seconds (JVM running for 8.239)
+2019-01-15 17:57:48,475 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-15 17:57:51,138 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425704@qq.com(String)
+2019-01-15 17:57:52,139 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 17:59:57,773 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 13732 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-15 17:59:57,773 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-15 17:59:57,774 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-15 18:00:03,263 INFO (StartupInfoLogger.java:57)- Started Application in 5.819 seconds (JVM running for 6.195)
+2019-01-15 18:00:09,537 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-15 18:00:09,674 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425704@qq.com(String)
+2019-01-15 18:00:09,699 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 18:00:09,707 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into account_info (account_num,passwd,phone_num,account_type, create_time,create_user_id,create_user_name) values ( ?, ?, ?, ?, ?, ?, ?) 
+2019-01-15 18:00:09,740 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425704@qq.com(String), e10adc3949ba59abbe56e057f20f883e(String), null, 1(Integer), 2019-01-15 18:00:09.702(Timestamp), 0(Integer), null
+2019-01-15 18:00:09,800 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-15 18:03:02,628 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 11760 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-15 18:03:02,629 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-15 18:03:02,629 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-15 18:03:09,402 INFO (StartupInfoLogger.java:57)- Started Application in 7.179 seconds (JVM running for 7.683)
+2019-01-15 18:03:16,960 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-15 18:03:19,571 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425702@qq.com(String)
+2019-01-15 18:03:20,590 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 18:03:32,128 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-15 18:03:32,134 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425709@qq.com(String)
+2019-01-15 18:03:32,143 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 18:03:33,616 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into account_info (account_num,passwd,phone_num,account_type, create_time,create_user_id,create_user_name) values ( ?, ?, ?, ?, ?, ?, ?) 
+2019-01-15 18:03:33,915 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425709@qq.com(String), e10adc3949ba59abbe56e057f20f883e(String), null, 1(Integer), 2019-01-15 18:03:33.518(Timestamp), 0(Integer), null
+2019-01-15 18:03:34,015 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-15 18:03:34,033 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into user_info(id,account_id)values(?,?) 
+2019-01-15 18:05:26,322 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-15 18:05:26,328 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425709@qq.com(String)
+2019-01-15 18:05:26,337 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 18:05:36,830 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-15 18:05:36,837 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425703@qq.com(String)
+2019-01-15 18:05:36,846 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 18:15:03,061 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 1060 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-15 18:15:03,063 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-15 18:15:03,064 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-15 18:15:10,617 INFO (StartupInfoLogger.java:57)- Started Application in 7.934 seconds (JVM running for 8.494)
+2019-01-15 18:15:28,174 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-15 18:15:28,320 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425704@qq.com(String)
+2019-01-15 18:15:28,344 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 18:16:03,619 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-15 18:16:03,627 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425712@qq.com(String)
+2019-01-15 18:16:03,636 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 18:16:12,355 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into account_info (account_num,passwd,phone_num,account_type, create_time,create_user_id,create_user_name) values ( ?, ?, ?, ?, ?, ?, ?) 
+2019-01-15 18:16:12,660 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425712@qq.com(String), e10adc3949ba59abbe56e057f20f883e(String), null, 1(Integer), 2019-01-15 18:16:09.998(Timestamp), 0(Integer), null
+2019-01-15 18:16:12,754 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-15 18:16:32,536 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into user_info(id,account_id)values(?,?) 
+2019-01-15 18:19:44,884 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-15 18:19:44,890 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425722@qq.com(String)
+2019-01-15 18:19:44,899 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 18:19:57,760 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into account_info (account_num,passwd,phone_num,account_type, create_time,create_user_id,create_user_name) values ( ?, ?, ?, ?, ?, ?, ?) 
+2019-01-15 18:19:57,797 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425722@qq.com(String), e10adc3949ba59abbe56e057f20f883e(String), null, 1(Integer), 2019-01-15 18:19:55.566(Timestamp), 0(Integer), null
+2019-01-15 18:19:57,823 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-15 18:20:16,657 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into user_info(id,account_id)values(?,?) 
+2019-01-15 18:21:57,052 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 12412 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-15 18:21:57,053 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-15 18:21:57,053 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-15 18:22:03,901 INFO (StartupInfoLogger.java:57)- Started Application in 7.242 seconds (JVM running for 7.755)
+2019-01-15 18:22:15,714 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-15 18:22:18,322 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425712@qq.com(String)
+2019-01-15 18:22:19,325 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 18:22:28,343 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-15 18:22:28,350 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425713@qq.com(String)
+2019-01-15 18:22:28,359 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 18:22:39,777 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into account_info (account_num,passwd,phone_num,account_type, create_time,create_user_id,create_user_name) values ( ?, ?, ?, ?, ?, ?, ?) 
+2019-01-15 18:22:40,073 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425713@qq.com(String), e10adc3949ba59abbe56e057f20f883e(String), null, 1(Integer), 2019-01-15 18:22:33.759(Timestamp), 0(Integer), null
+2019-01-15 18:22:40,096 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-15 18:23:59,324 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into user_info(id,account_id)values(?,?) 
+2019-01-15 18:23:59,342 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: null, 10(Integer)
+2019-01-15 18:23:59,377 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-15 18:36:53,674 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 4472 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-15 18:36:53,675 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-15 18:36:53,675 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-15 18:37:03,123 INFO (StartupInfoLogger.java:57)- Started Application in 9.831 seconds (JVM running for 10.331)
+2019-01-15 18:37:24,553 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-15 18:37:27,138 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425723@qq.com(String)
+2019-01-15 18:37:28,141 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 18:37:40,707 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into account_info (account_num,passwd,phone_num,account_type, create_time,create_user_id,create_user_name) values ( ?, ?, ?, ?, ?, ?, ?) 
+2019-01-15 18:37:41,017 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425723@qq.com(String), e10adc3949ba59abbe56e057f20f883e(String), null, 1(Integer), 2019-01-15 18:37:38.766(Timestamp), 0(Integer), null
+2019-01-15 18:37:41,025 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-15 18:38:13,823 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-15 18:38:13,829 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425723@qq.com(String)
+2019-01-15 18:38:13,838 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-15 18:38:17,028 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into account_info (account_num,passwd,phone_num,account_type, create_time,create_user_id,create_user_name) values ( ?, ?, ?, ?, ?, ?, ?) 
+2019-01-15 18:38:17,064 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 508425723@qq.com(String), e10adc3949ba59abbe56e057f20f883e(String), null, 1(Integer), 2019-01-15 18:38:16.621(Timestamp), 0(Integer), null
+2019-01-15 18:38:17,073 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-15 18:49:16,174 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 2968 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-15 18:49:16,174 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-15 18:49:16,175 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-15 18:49:23,310 INFO (StartupInfoLogger.java:57)- Started Application in 7.521 seconds (JVM running for 8.033)

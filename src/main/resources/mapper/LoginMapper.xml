@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="snod.com.cn.dao.LoginDao">
+	<resultMap id="BaseResultMap" type="snod.com.cn.entity.UserInfo" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="user_name" property="userName" jdbcType="VARCHAR" />
+        <result column="user_name_en" property="userName" jdbcType="VARCHAR" />
+        <result column="sex" property="sex" javaType="INTEGER"/>
+        <result column="nickname" property="nickname" jdbcType="VARCHAR" />
+        <result column="head_portrait" property="headPortrait" jdbcType="VARCHAR" />
+        <result column="company_name" property="companyName" jdbcType="VARCHAR" />
+        <result column="position_name" property="positionName" jdbcType="VARCHAR" />
+        <result column="voiceprint" property="voiceprint" jdbcType="VARCHAR" />
+        <result column="department" property="department" jdbcType="VARCHAR" />
+        <result column="phone_num" property="phoneNum" jdbcType="VARCHAR" />
+        <collection property="accountInfo" ofType="AccountInfo" column="id">
+			<id column="aid" property="id"/><!-- 这里的column对应的是下面查询的别名，而不是表字段名 -->
+		    <result column="user_id" property="userId"/>
+			<result column="account_num" property="accountNum"/>
+			<result column="passwd" property="passwd"/>
+			<result column="account_type" property="accountType"/>
+			<result column="create_time" property="createTime"/>
+			<result column="create_user_id" property="createUserId"/>
+			<result column="create_user_name" property="createUserName"/>
+		</collection>
+<!-- 		<collection property="role" ofType="Role" column="id"> -->
+<!-- 			<id column="sid" property="id"/>这里的column对应的是下面查询的别名，而不是表字段名 -->
+<!-- 			<result column="sname" property="name"/>property对应JavaBean中的属性名 -->
+<!-- 			<result column="className" property="className"/> -->
+<!-- 		</collection> -->
+    </resultMap>
+	<select id="loginEmail" parameterType="java.lang.String" resultMap="BaseResultMap">
+		select 
+		ai.account_num,ai.account_type,ai.create_time,
+		ai.create_user_id,ai.create_user_name,ai.user_id,
+		ai.user_id,ui.head_portrait,ui.nickname,
+		ui.sex,ui.user_name,ui.user_name_en,ui.company_name,
+		ui.position_name,ui.voiceprint,ui.id,ai.id as aid,ui.department,ui.phone_num
+		from user_info ui 
+		INNER JOIN account_info ai 
+		on ui.id=ai.user_id
+		where ai.account_num=#{email,jdbcType=VARCHAR}
+		and ai.passwd=#{passwd,jdbcType=VARCHAR}
+	</select>
+	<select id="queryAccount" parameterType="java.lang.String" resultType="snod.com.cn.entity.AccountInfo">
+		select 
+		ai.account_num,
+		ai.account_type,
+		ai.create_time,
+		ai.create_user_id,
+		ai.create_user_name,
+		ai.id,ai.passwd,
+		ai.user_id
+		from account_info ai 
+		where ai.account_num=#{email,jdbcType=VARCHAR}
+	</select>
+	
+	<select id="queryAccountInfo" parameterType="java.lang.String" resultType="java.lang.Integer">
+	select count(*) as iscount from account_info ai
+     where ai.account_num=#{email,jdbcType=VARCHAR}
+	</select>
+	<insert id="emailRegister" useGeneratedKeys="true" keyProperty="id" keyColumn="id" parameterType="snod.com.cn.entity.AccountInfo">
+	  insert into account_info (id,user_id,account_num,passwd,account_type,
+       create_time,create_user_id,create_user_name)
+       values (
+        #{id,jdbcType=INTEGER},
+         #{userId,jdbcType=INTEGER},
+       #{accountNum,jdbcType=VARCHAR},
+       #{passwd,jdbcType=VARCHAR},
+       #{accountType,jdbcType=INTEGER},
+       #{createTime,jdbcType=TIMESTAMP},
+       #{createUserId,jdbcType=INTEGER},
+       #{createUserName,jdbcType=VARCHAR})
+	</insert>
+	<insert id="addUserInfo" useGeneratedKeys="true" keyProperty="id" parameterType="snod.com.cn.entity.UserInfo">
+	 insert into user_info(id)values(#{id,jdbcType=INTEGER})
+	</insert>
+	
+    <update id="updatePasswd" parameterType="java.lang.String">
+    update account_info ai set ai.passwd=#{passwdNew,jdbcType=VARCHAR} 
+	where ai.account_num=#{email,jdbcType=VARCHAR} and ai.passwd=#{passwdOld,jdbcType=VARCHAR}
+    </update>
+    
+  
+</mapper>

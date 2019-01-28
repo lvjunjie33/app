@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="snod.com.cn.dao.ContactsDao" >
+    <resultMap id="BaseResultMap" type="snod.com.cn.entity.ContactsInfo" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="user_id" property="userId" jdbcType="INTEGER" />
+        <result column="contacts_id" property="contactsId" jdbcType="INTEGER" />
+          <association property="userInfo" javaType="snod.com.cn.entity.UserInfo">
+            <result column="user_name" property="userName"/>
+            <result column="phone_num" property="phoneNum"/>
+            <result column="head_portrait" property="headPortrait"/>
+        </association>
+        </resultMap>
+    <insert id="addContacts" useGeneratedKeys="true" keyProperty="id" keyColumn="id" parameterType="snod.com.cn.entity.ContactsInfo">
+	  insert into contacts_info 
+	  (id,user_id,contacts_id)
+       values (
+        #{id,jdbcType=INTEGER},
+ 		#{userId,jdbcType=INTEGER},
+ 		#{contactsId,jdbcType=INTEGER}
+ 		)
+	</insert>
+
+	 <select id="queryContacts" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    	select 
+		ci.id,ci.user_id,ci.contacts_id,ui.user_name,ui.phone_num,ui.head_portrait
+		from contacts_info ci
+		LEFT join user_info ui 
+		on ci.contacts_id=ui.id
+		where ci.user_id=#{userId,jdbcType=INTEGER}
+    </select>
+
+</mapper>

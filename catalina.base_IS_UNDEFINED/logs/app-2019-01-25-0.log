@@ -1,0 +1,14 @@
+2019-01-25 10:21:49,282 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 10580 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-25 10:21:49,298 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-25 10:21:49,298 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-25 10:21:56,351 INFO (StartupInfoLogger.java:57)- Started Application in 7.534 seconds (JVM running for 8.189)
+2019-01-25 14:34:32,459 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 15056 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-25 14:34:32,459 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-25 14:34:32,459 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-25 14:34:38,865 INFO (StartupInfoLogger.java:57)- Started Application in 6.762 seconds (JVM running for 7.175)
+2019-01-25 14:34:44,861 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select ai.account_num,ai.account_type,ai.create_time, ai.create_user_id,ai.create_user_name,ai.user_id, ai.user_id,ui.head_portrait,ui.nickname, ui.sex,ui.user_name,ui.user_name_en,ui.company_name, ui.position_name,ui.voiceprint,ui.id,ai.id as aid,ui.department,ui.phone_num from user_info ui INNER JOIN account_info ai on ui.id=ai.user_id where ai.account_num=? and ai.passwd=? 
+2019-01-25 14:34:44,986 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 954098901@qq.com(String), c33367701511b4f6020ec61ded352059(String)
+2019-01-25 14:34:45,017 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-25 14:38:08,622 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select ai.account_num,ai.account_type,ai.create_time, ai.create_user_id,ai.create_user_name,ai.user_id, ai.user_id,ui.head_portrait,ui.nickname, ui.sex,ui.user_name,ui.user_name_en,ui.company_name, ui.position_name,ui.voiceprint,ui.id,ai.id as aid,ui.department,ui.phone_num from user_info ui INNER JOIN account_info ai on ui.id=ai.user_id where ai.account_num=? and ai.passwd=? 
+2019-01-25 14:38:08,622 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 954098901@qq.com(String), c33367701511b4f6020ec61ded352059(String)
+2019-01-25 14:38:08,622 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1

@@ -1,0 +1,239 @@
+2019-01-21 10:24:19,244 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 6540 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-21 10:24:19,253 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-21 10:24:19,254 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-21 10:24:25,729 INFO (StartupInfoLogger.java:57)- Started Application in 6.947 seconds (JVM running for 7.728)
+2019-01-21 10:26:54,014 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-21 10:26:54,127 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 53@qq.com(String)
+2019-01-21 10:26:54,150 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-21 10:26:54,159 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into user_info(id)values(?) 
+2019-01-21 10:26:54,185 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: null
+2019-01-21 10:26:54,187 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 10:26:54,194 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into account_info (id,user_id,account_num,passwd,phone_num,account_type, create_time,create_user_id,create_user_name) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2019-01-21 10:26:54,197 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 0(Integer), 34(Integer), 53@qq.com(String), c20ad4d76fe97759aa27a0c99bff6710(String), null, 1(Integer), 2019-01-21 10:26:54.188(Timestamp), 0(Integer), null
+2019-01-21 10:26:54,199 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 10:27:18,400 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-21 10:27:18,402 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 536@qq.com(String)
+2019-01-21 10:27:18,403 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-21 10:27:18,404 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into user_info(id)values(?) 
+2019-01-21 10:27:18,405 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: null
+2019-01-21 10:27:18,406 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 10:27:18,406 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into account_info (id,user_id,account_num,passwd,phone_num,account_type, create_time,create_user_id,create_user_name) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2019-01-21 10:27:18,407 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 0(Integer), 35(Integer), 536@qq.com(String), c20ad4d76fe97759aa27a0c99bff6710(String), null, 1(Integer), 2019-01-21 10:27:18.406(Timestamp), 0(Integer), null
+2019-01-21 10:27:18,408 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 10:27:42,989 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-21 10:27:42,990 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 536@qq.com(String)
+2019-01-21 10:27:42,991 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-21 10:40:34,335 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-21 10:40:34,335 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 64@qq.com(String)
+2019-01-21 10:40:34,337 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-21 10:40:34,338 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into user_info(id)values(?) 
+2019-01-21 10:40:34,338 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: null
+2019-01-21 10:40:34,340 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 10:40:34,340 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into account_info (id,user_id,account_num,passwd,phone_num,account_type, create_time,create_user_id,create_user_name) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2019-01-21 10:40:34,340 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 0(Integer), 36(Integer), 64@qq.com(String), c20ad4d76fe97759aa27a0c99bff6710(String), null, 1(Integer), 2019-01-21 10:40:34.34(Timestamp), 0(Integer), null
+2019-01-21 10:40:34,342 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 10:44:09,322 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-21 10:44:09,322 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 45@qq.com(String)
+2019-01-21 10:44:09,324 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-21 10:44:09,325 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into user_info(id)values(?) 
+2019-01-21 10:44:09,325 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: null
+2019-01-21 10:44:09,327 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 10:44:09,327 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into account_info (id,user_id,account_num,passwd,phone_num,account_type, create_time,create_user_id,create_user_name) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2019-01-21 10:44:09,328 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 0(Integer), 37(Integer), 45@qq.com(String), d07e70efcfab08731a97e7b91be644de(String), null, 1(Integer), 2019-01-21 10:44:09.327(Timestamp), 0(Integer), null
+2019-01-21 10:44:09,330 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 10:52:26,474 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-21 10:52:26,475 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 45789@qq.com(String)
+2019-01-21 10:52:26,476 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-21 10:52:26,477 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into user_info(id)values(?) 
+2019-01-21 10:52:26,478 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: null
+2019-01-21 10:52:26,480 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 10:52:26,481 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into account_info (id,user_id,account_num,passwd,phone_num,account_type, create_time,create_user_id,create_user_name) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2019-01-21 10:52:26,482 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 0(Integer), 38(Integer), 45789@qq.com(String), d07e70efcfab08731a97e7b91be644de(String), null, 1(Integer), 2019-01-21 10:52:26.48(Timestamp), 0(Integer), null
+2019-01-21 10:52:26,484 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 10:52:28,694 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-21 10:52:28,695 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 45789@qq.com(String)
+2019-01-21 10:52:28,696 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-21 10:52:29,717 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-21 10:52:29,718 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 45789@qq.com(String)
+2019-01-21 10:52:29,720 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-21 14:07:10,442 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 19432 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-21 14:07:10,443 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-21 14:07:10,443 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-21 14:07:17,217 INFO (StartupInfoLogger.java:57)- Started Application in 7.165 seconds (JVM running for 7.663)
+2019-01-21 14:10:38,246 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 5620 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-21 14:10:38,247 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-21 14:10:38,247 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-21 14:11:02,184 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 19416 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-21 14:11:02,185 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-21 14:11:02,185 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-21 14:11:08,550 INFO (StartupInfoLogger.java:57)- Started Application in 6.76 seconds (JVM running for 7.269)
+2019-01-21 14:12:34,294 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into contacts_info (id,user_id,contacts_id) values ( ?, ?, ? ) 
+2019-01-21 14:12:34,418 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 0(Integer), 4(Integer), 1(Integer)
+2019-01-21 14:12:34,423 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 14:12:34,447 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into contacts_info (id,user_id,contacts_id) values ( ?, ?, ? ) 
+2019-01-21 14:12:34,448 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 0(Integer), 4(Integer), 2(Integer)
+2019-01-21 14:12:34,554 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 14:12:34,556 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into contacts_info (id,user_id,contacts_id) values ( ?, ?, ? ) 
+2019-01-21 14:12:34,557 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 0(Integer), 4(Integer), 3(Integer)
+2019-01-21 14:12:34,687 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 14:12:34,688 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into contacts_info (id,user_id,contacts_id) values ( ?, ?, ? ) 
+2019-01-21 14:12:34,689 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 0(Integer), 4(Integer), 4(Integer)
+2019-01-21 14:12:34,691 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 14:12:34,692 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into contacts_info (id,user_id,contacts_id) values ( ?, ?, ? ) 
+2019-01-21 14:12:34,692 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 0(Integer), 4(Integer), 55(Integer)
+2019-01-21 14:12:34,694 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 14:12:34,694 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into contacts_info (id,user_id,contacts_id) values ( ?, ?, ? ) 
+2019-01-21 14:12:34,695 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 0(Integer), 4(Integer), 6(Integer)
+2019-01-21 14:12:34,696 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 14:12:34,697 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into contacts_info (id,user_id,contacts_id) values ( ?, ?, ? ) 
+2019-01-21 14:12:34,697 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 0(Integer), 4(Integer), 8(Integer)
+2019-01-21 14:12:34,699 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 14:14:43,703 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select ci.id,ci.user_id,ci.contacts_id from contacts_info ci where ci.user_id=? 
+2019-01-21 14:14:43,727 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 4(Integer)
+2019-01-21 14:14:43,736 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 7
+2019-01-21 15:51:26,018 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 13628 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-21 15:51:26,018 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-21 15:51:26,018 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-21 15:51:32,417 INFO (StartupInfoLogger.java:57)- Started Application in 6.778 seconds (JVM running for 7.186)
+2019-01-21 15:51:53,609 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: update user_info ui set ui.user_name=?, ui.sex=?, ui.company_name=?, ui.position_name=?, ui.voiceprint=?, ui.department=?, ui.phone_num=? where ui.id=? 
+2019-01-21 15:51:56,267 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 吕俊杰99(String), 1(Integer), 三诺数字科技有限公司(String), Java后台开发工程师(String), 13926570220(String), 研发部(String), te12312xs(String), 59(Integer)
+2019-01-21 15:51:56,337 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 15:52:54,832 ERROR (UserController.java:61)- org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.alibaba.druid.pool.DataSourceClosedException: dataSource already closed at Mon Jan 21 15:52:50 CST 2019
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.alibaba.druid.pool.DataSourceClosedException: dataSource already closed at Mon Jan 21 15:52:50 CST 2019
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:79)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:447)
+	at com.sun.proxy.$Proxy94.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:295)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:59)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:53)
+	at com.sun.proxy.$Proxy98.editUserInfo(Unknown Source)
+	at snod.com.cn.service.UserService.editUserInfo(UserService.java:54)
+	at snod.com.cn.controller.UserController.editUserInfo(UserController.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.alibaba.druid.pool.DataSourceClosedException: dataSource already closed at Mon Jan 21 15:52:50 CST 2019
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.alibaba.druid.pool.DataSourceClosedException: dataSource already closed at Mon Jan 21 15:52:50 CST 2019
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:434)
+	... 67 more
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.alibaba.druid.pool.DataSourceClosedException: dataSource already closed at Mon Jan 21 15:52:50 CST 2019
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:84)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:70)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:84)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	... 72 more
+Caused by: com.alibaba.druid.pool.DataSourceClosedException: dataSource already closed at Mon Jan 21 15:52:50 CST 2019
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionInternal(DruidDataSource.java:1358)
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionDirect(DruidDataSource.java:1255)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5007)
+	at com.alibaba.druid.filter.FilterAdapter.dataSource_getConnection(FilterAdapter.java:2745)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5003)
+	at com.alibaba.druid.filter.stat.StatFilter.dataSource_getConnection(StatFilter.java:680)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5003)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1233)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1225)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:90)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 80 more
+
+2019-01-21 16:14:54,827 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 21960 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-21 16:14:54,828 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-21 16:14:54,828 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-21 16:15:01,071 INFO (StartupInfoLogger.java:57)- Started Application in 6.624 seconds (JVM running for 7.12)
+2019-01-21 16:17:17,016 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select ai.account_num,ai.account_type,ai.create_time, ai.create_user_id,ai.create_user_name,ai.user_id, ai.user_id,ui.head_portrait,ui.nickname, ui.sex,ui.user_name,ui.user_name_en,ui.company_name, ui.position_name,ui.voiceprint,ui.id,ai.id as aid,ui.department,ui.phone_num from user_info ui INNER JOIN account_info ai on ui.id=ai.user_id where ai.account_num=? and ai.passwd=? 
+2019-01-21 16:17:17,139 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 981723770@qq.com(String), e10adc3949ba59abbe56e057f20f883e(String)
+2019-01-21 16:17:17,166 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 0
+2019-01-21 16:17:31,349 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select count(*) as iscount from account_info ai where ai.account_num=? 
+2019-01-21 16:17:31,351 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 981723770@qq.com(String)
+2019-01-21 16:17:31,355 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-21 16:17:33,585 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into user_info(id)values(?) 
+2019-01-21 16:17:33,610 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: null
+2019-01-21 16:17:33,612 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 16:17:33,614 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into account_info (id,user_id,account_num,passwd,account_type, create_time,create_user_id,create_user_name) values ( ?, ?, ?, ?, ?, ?, ?, ?) 
+2019-01-21 16:17:33,617 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 0(Integer), 64(Integer), 981723770@qq.com(String), e10adc3949ba59abbe56e057f20f883e(String), 1(Integer), 2019-01-21 16:17:33.613(Timestamp), 0(Integer), null
+2019-01-21 16:17:33,619 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 16:17:39,250 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select ai.account_num,ai.account_type,ai.create_time, ai.create_user_id,ai.create_user_name,ai.user_id, ai.user_id,ui.head_portrait,ui.nickname, ui.sex,ui.user_name,ui.user_name_en,ui.company_name, ui.position_name,ui.voiceprint,ui.id,ai.id as aid,ui.department,ui.phone_num from user_info ui INNER JOIN account_info ai on ui.id=ai.user_id where ai.account_num=? and ai.passwd=? 
+2019-01-21 16:17:39,250 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 981723770@qq.com(String), e10adc3949ba59abbe56e057f20f883e(String)
+2019-01-21 16:17:39,254 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-21 16:18:39,729 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: update user_info ui set ui.user_name=?, ui.sex=?, ui.company_name=?, ui.position_name=?, ui.voiceprint=?, ui.department=?, ui.phone_num=? where ui.id=? 
+2019-01-21 16:18:39,732 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 吕俊杰(String), 1(Integer), 三诺数字科技有限公司(String), Java后台开发工程师(String), 123as1d(String), 研发部(String), 13926570220(String), 64(Integer)
+2019-01-21 16:18:39,775 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-21 16:39:52,996 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 20776 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-21 16:39:52,997 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-21 16:39:52,997 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-21 16:39:59,336 INFO (StartupInfoLogger.java:57)- Started Application in 6.734 seconds (JVM running for 7.234)
+2019-01-21 16:46:59,921 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 17380 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-21 16:46:59,922 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-21 16:46:59,922 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-21 16:47:06,216 INFO (StartupInfoLogger.java:57)- Started Application in 6.674 seconds (JVM running for 7.174)

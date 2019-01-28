@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="snod.com.cn.dao.MeetingDao" >
+    <resultMap id="BaseResultMap" type="snod.com.cn.entity.MeetingInfo" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="meeting_code" property="meetingCode" jdbcType="VARCHAR" />
+        <result column="meeting_name" property="meetingName" jdbcType="VARCHAR" />
+        <result column="meeting_start_date" property="meetingStartDate" jdbcType="TIMESTAMP"/>
+        <result column="meeting_end_date" property="meetingEndDate" jdbcType="TIMESTAMP" />
+        <result column="meetingpre_start_time" property="meetingpreStartTime" jdbcType="BIGINT" />
+        <result column="meeting_address" property="meetingAddress" jdbcType="VARCHAR" />
+        <result column="print_lan" property="printLan" jdbcType="INTEGER" />
+        <result column="meeting_passwd" property="meetingPasswd" jdbcType="VARCHAR" />
+        <result column="status" property="status" jdbcType="INTEGER" />
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+        <result column="create_user_id" property="createUserId" jdbcType="INTEGER" />
+        <result column="create_user_name" property="createUserName" jdbcType="VARCHAR" />
+        <collection property="meetingDetail" ofType="MeetingDetail" column="id">
+			<id column="did" property="id"/><!-- 这里的column对应的是下面查询的别名，而不是表字段名 -->
+			<result column="meeting_id" property="meetingId"/><!-- property对应JavaBean中的属性名 -->
+			<result column="device_num" property="deviceNum"/>
+			<result column="meeting_content" property="meetingContent"/>
+			<result column="meeting_translate" property="meetingTranslate"/>
+			<result column="meeting_content_file" property="meetingContentFile"/>
+			<result column="meeting_translate_file" property="meetingTranslateFile"/>
+		</collection>
+    </resultMap>
+    
+    <resultMap id="resultMeetingUserMap" type="snod.com.cn.entity.MeetingUser" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <id column="user_id" property="userId" jdbcType="INTEGER" />
+    <id column="meeting_id" property="meetingId" jdbcType="INTEGER" />
+      <association property="userInfo" javaType="snod.com.cn.entity.UserInfo">
+            <result column="user_name" property="userName"/>
+            <result column="phone_num" property="phoneNum"/>
+            <result column="head_portrait" property="headPortrait"/>
+            <result column="sex" property="sex"/>
+            <result column="company_name" property="companyName"/>
+            <result column="department" property="department"/>
+        </association>
+          <association property="meetingInfo" javaType="snod.com.cn.entity.MeetingInfo">
+            <result column="meeting_code" property="meetingCode"/>
+        </association>
+    </resultMap>
+    
+<!--     <select id="getOne" parameterType="java.lang.Long" resultMap="BaseResultMap" > -->
+<!--         SELECT  -->
+<!--        <include refid="Base_Column_List" /> -->
+<!--        FROM users -->
+<!--        WHERE id = #{id} -->
+<!--     </select> -->
+	<select id="querymeetingStatus" parameterType="java.lang.String" resultMap="BaseResultMap">
+		select 
+		mi.id,mi.create_time,mi.create_user_id,
+		mi.create_user_name,mi.meeting_address,
+		mi.meeting_code,mi.meeting_end_date,
+		mi.meeting_name,mi.meeting_passwd,
+		mi.meeting_start_date,mi.print_lan,
+		mi.status,mde.device_num,mde.meeting_content,
+		mde.meeting_content_file,mde.meeting_translate,
+		mde.meeting_translate_file
+		from meeting_info mi 
+		INNER JOIN meetion_detail mde
+		on mi.id=mde.meeting_id
+		where mi.meeting_code=#{meetingCode,jdbcType=VARCHAR}
+	</select>
+   <insert id="createMeeting" useGeneratedKeys="true" keyProperty="id" keyColumn="id" parameterType="snod.com.cn.entity.MeetingInfo">
+	  insert into meeting_info 
+	  (id,meeting_code,meeting_name,meetingpre_start_time,
+       meeting_address,print_lan,meeting_passwd,
+       status,create_time,create_user_id,create_user_name)
+       values (
+        #{id,jdbcType=INTEGER},
+         #{meetingCode,jdbcType=VARCHAR},
+       #{meetingName,jdbcType=VARCHAR},
+       #{meetingpreStartTime,jdbcType=BIGINT},
+       #{meetingAddress,jdbcType=VARCHAR},
+       #{printLan,jdbcType=INTEGER},
+       #{meetingPasswd,jdbcType=VARCHAR},
+       #{status,jdbcType=INTEGER},
+       #{createTime,jdbcType=TIMESTAMP},
+       #{createUserId,jdbcType=INTEGER},
+       #{createUserName,jdbcType=VARCHAR})
+	</insert>
+	
+	<insert id="createMeetingDetail" useGeneratedKeys="true" keyProperty="id" keyColumn="id" parameterType="snod.com.cn.entity.MeetingDetail">
+	  insert into meetion_detail 
+	  (id,meeting_id)
+       values (
+        #{id,jdbcType=INTEGER},
+ 		#{meetingId,jdbcType=INTEGER})
+	</insert>
+	
+	<insert id="createMeetingUser" useGeneratedKeys="true" keyProperty="id" keyColumn="id" parameterType="snod.com.cn.entity.MeetingUser">
+	  insert into meeting_user 
+	  (id,user_id,meeting_id)
+       values (
+        #{id,jdbcType=INTEGER},
+ 		#{userId,jdbcType=INTEGER},
+       #{meetingId,jdbcType=INTEGER})
+	</insert>
+	<update id="cancelMeeting" parameterType="java.util.Map">
+	update meeting_info mi set mi.status=5 
+	where mi.meeting_code=#{meetingCode,jdbcType=VARCHAR} 
+	and mi.create_user_id=#{userId,jdbcType=INTEGER}
+	and mi.status=1
+	</update>
+    <select id="queryMeetingList" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    	select 
+		mi.id,mi.create_time,mi.create_user_id,
+		mi.create_user_name,mi.meeting_address,
+		mi.meeting_code,mi.meeting_end_date,mi.meetingpre_start_time,
+		mi.meeting_name,mi.meeting_passwd,
+		mi.meeting_start_date,mi.print_lan,
+		mi.status,mde.device_num,mde.meeting_content,
+		mde.meeting_content_file,mde.meeting_translate,
+		mde.meeting_translate_file,mde.meeting_id,mde.id as did
+		from meeting_info mi 
+		INNER JOIN meetion_detail mde
+		on mi.id=mde.meeting_id	
+		where mi.create_user_id=#{createUserId,jdbcType=INTEGER}
+		and mi.status in (1,2,3,4)
+    </select>
+    
+     <select id="meetingQueryUsers" parameterType="java.lang.String" resultMap="resultMeetingUserMap">
+		select mu.id,mi.meeting_code,mu.meeting_id,mu.user_id,
+		ui.company_name,ui.department,ui.head_portrait,
+		ui.phone_num,ui.sex,ui.user_name from meeting_user mu 
+		INNER JOIN meeting_info mi
+		on mu.meeting_id=mi.id
+		LEFT JOIN user_info ui on mu.user_id=ui.id
+		where mi.meeting_code=#{meetingCode,jdbcType=VARCHAR}
+    </select>
+    
+<!--     <update id="update" parameterType="com.neo.entity.UserEntity" > -->
+<!--        UPDATE  -->
+<!--             users  -->
+<!--        SET  -->
+<!--         <if test="userName != null">userName = #{userName},</if> -->
+<!--         <if test="passWord != null">passWord = #{passWord},</if> -->
+<!--         nick_name = #{nickName} -->
+<!--        WHERE  -->
+<!--             id = #{id} -->
+<!--     </update> -->
+    
+<!--     <delete id="delete" parameterType="java.lang.Long" > -->
+<!--        DELETE FROM -->
+<!--              users  -->
+<!--        WHERE  -->
+<!--              id =#{id} -->
+<!--     </delete> -->
+
+</mapper>

@@ -1,0 +1,49 @@
+2019-01-22 09:19:08,575 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 12320 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-22 09:19:08,585 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-22 09:19:08,586 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-22 09:19:15,385 INFO (StartupInfoLogger.java:57)- Started Application in 7.28 seconds (JVM running for 8.034)
+2019-01-22 14:29:23,944 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 5592 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-22 14:29:23,945 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-22 14:29:23,946 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-22 14:29:30,557 INFO (StartupInfoLogger.java:57)- Started Application in 7.011 seconds (JVM running for 7.531)
+2019-01-22 14:31:37,461 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 28400 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-22 14:31:37,461 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-22 14:31:37,461 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-22 14:31:43,854 INFO (StartupInfoLogger.java:57)- Started Application in 6.771 seconds (JVM running for 7.269)
+2019-01-22 14:35:44,098 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select ai.account_num,ai.account_type,ai.create_time, ai.create_user_id,ai.create_user_name,ai.user_id, ai.user_id,ui.head_portrait,ui.nickname, ui.sex,ui.user_name,ui.user_name_en,ui.company_name, ui.position_name,ui.voiceprint,ui.id,ai.id as aid,ui.department,ui.phone_num from user_info ui INNER JOIN account_info ai on ui.id=ai.user_id where ai.account_num=? and ai.passwd=? 
+2019-01-22 14:35:44,233 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 954098901@qq.com(String), c33367701511b4f6020ec61ded352059(String)
+2019-01-22 14:35:44,264 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-22 14:36:36,593 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select ai.account_num,ai.account_type,ai.create_time, ai.create_user_id,ai.create_user_name,ai.user_id, ai.user_id,ui.head_portrait,ui.nickname, ui.sex,ui.user_name,ui.user_name_en,ui.company_name, ui.position_name,ui.voiceprint,ui.id,ai.id as aid,ui.department,ui.phone_num from user_info ui INNER JOIN account_info ai on ui.id=ai.user_id where ai.account_num=? and ai.passwd=? 
+2019-01-22 14:36:36,593 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 954098901@qq.com(String), c33367701511b4f6020ec61ded352059(String)
+2019-01-22 14:36:36,596 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-22 14:36:49,535 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into contacts_info (id,user_id,contacts_id) values ( ?, ?, ? ) 
+2019-01-22 14:36:49,562 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 0(Integer), 9(Integer), 1(Integer)
+2019-01-22 14:36:49,564 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-22 14:36:49,565 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into contacts_info (id,user_id,contacts_id) values ( ?, ?, ? ) 
+2019-01-22 14:36:49,567 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 0(Integer), 9(Integer), 2(Integer)
+2019-01-22 14:36:49,568 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-22 14:48:06,147 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select ai.account_num,ai.account_type,ai.create_time, ai.create_user_id,ai.create_user_name,ai.user_id, ai.user_id,ui.head_portrait,ui.nickname, ui.sex,ui.user_name,ui.user_name_en,ui.company_name, ui.position_name,ui.voiceprint,ui.id,ai.id as aid,ui.department,ui.phone_num from user_info ui INNER JOIN account_info ai on ui.id=ai.user_id where ai.account_num=? and ai.passwd=? 
+2019-01-22 14:48:06,148 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 954098901@qq.com(String), c33367701511b4f6020ec61ded352059(String)
+2019-01-22 14:48:06,151 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-22 14:48:20,911 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into contacts_info (id,user_id,contacts_id) values ( ?, ?, ? ) 
+2019-01-22 14:48:20,912 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 0(Integer), 9(Integer), 1(Integer)
+2019-01-22 14:48:20,913 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-22 14:48:20,913 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: insert into contacts_info (id,user_id,contacts_id) values ( ?, ?, ? ) 
+2019-01-22 14:48:20,914 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 0(Integer), 9(Integer), 2(Integer)
+2019-01-22 14:48:20,915 DEBUG (BaseJdbcLogger.java:145)- <==    Updates: 1
+2019-01-22 14:51:50,579 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select ci.id,ci.user_id,ci.contacts_id from contacts_info ci where ci.user_id=? 
+2019-01-22 14:51:50,580 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 9(Integer)
+2019-01-22 14:51:50,584 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 16
+2019-01-22 15:37:28,561 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 27684 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-22 15:37:28,562 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-22 15:37:28,562 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-22 15:37:35,068 INFO (StartupInfoLogger.java:57)- Started Application in 6.914 seconds (JVM running for 7.452)
+2019-01-22 15:38:10,529 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select ci.id,ci.user_id,ci.contacts_id,ui.user_name,ui.phone_num,ui.head_portrait from contacts_info ci LEFT join user_info ui on ci.contacts_id=ui.id where ci.user_id=? 
+2019-01-22 15:38:13,106 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 9(Integer)
+2019-01-22 15:38:14,239 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 16
+2019-01-22 15:40:07,983 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select ai.account_num,ai.account_type,ai.create_time, ai.create_user_id,ai.create_user_name,ai.user_id, ai.user_id,ui.head_portrait,ui.nickname, ui.sex,ui.user_name,ui.user_name_en,ui.company_name, ui.position_name,ui.voiceprint,ui.id,ai.id as aid,ui.department,ui.phone_num from user_info ui INNER JOIN account_info ai on ui.id=ai.user_id where ai.account_num=? and ai.passwd=? 
+2019-01-22 15:40:07,985 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 954098901@qq.com(String), c33367701511b4f6020ec61ded352059(String)
+2019-01-22 15:40:07,989 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 1
+2019-01-22 15:40:16,059 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select ci.id,ci.user_id,ci.contacts_id,ui.user_name,ui.phone_num,ui.head_portrait from contacts_info ci LEFT join user_info ui on ci.contacts_id=ui.id where ci.user_id=? 
+2019-01-22 15:40:16,060 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 9(Integer)
+2019-01-22 15:40:16,066 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 16

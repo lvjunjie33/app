@@ -1,0 +1,20 @@
+2019-01-24 14:35:03,188 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 12320 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-24 14:35:03,199 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-24 14:35:03,200 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-24 14:35:10,999 INFO (StartupInfoLogger.java:57)- Started Application in 8.345 seconds (JVM running for 8.904)
+2019-01-24 16:54:22,282 INFO (StartupInfoLogger.java:48)- Starting Application on N9E7I63DAFWHTOH with PID 29112 (D:\workspace_app\3nod.com.cn\app\target\classes started by Administrator in D:\workspace_app\3nod.com.cn\app)
+2019-01-24 16:54:22,283 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-24 16:54:22,283 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2019-01-24 16:54:29,040 INFO (StartupInfoLogger.java:57)- Started Application in 7.14 seconds (JVM running for 7.651)
+2019-01-24 16:54:46,760 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select mi.id,mi.create_time,mi.create_user_id, mi.create_user_name,mi.meeting_address, mi.meeting_code,mi.meeting_end_date,mi.meetingpre_start_time, mi.meeting_name,mi.meeting_passwd, mi.meeting_start_date,mi.print_lan, mi.status,mde.device_num,mde.meeting_content, mde.meeting_content_file,mde.meeting_translate, mde.meeting_translate_file,mde.meeting_id,mde.id as did from meeting_info mi INNER JOIN meetion_detail mde on mi.id=mde.meeting_id where mi.create_user_id=? and mi.status in (1,2,3,4) 
+2019-01-24 16:54:46,899 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 4(Integer)
+2019-01-24 16:54:46,931 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 5
+2019-01-24 16:55:38,388 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select mi.id,mi.create_time,mi.create_user_id, mi.create_user_name,mi.meeting_address, mi.meeting_code,mi.meeting_end_date,mi.meetingpre_start_time, mi.meeting_name,mi.meeting_passwd, mi.meeting_start_date,mi.print_lan, mi.status,mde.device_num,mde.meeting_content, mde.meeting_content_file,mde.meeting_translate, mde.meeting_translate_file,mde.meeting_id,mde.id as did from meeting_info mi INNER JOIN meetion_detail mde on mi.id=mde.meeting_id where mi.create_user_id=? and mi.status in (1,2,3,4) 
+2019-01-24 16:55:38,389 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 4(Integer)
+2019-01-24 16:55:38,394 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 5
+2019-01-24 16:55:52,451 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select mi.meeting_code,mu.meeting_id,mu.user_id, ui.company_name,ui.department,ui.head_portrait, ui.phone_num,ui.sex,ui.user_name from meeting_user mu INNER JOIN meeting_info mi on mu.meeting_id=mi.id LEFT JOIN user_info ui on mu.user_id=ui.id where mi.meeting_code=? 
+2019-01-24 16:55:52,453 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 01170003(String)
+2019-01-24 16:55:52,456 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 3
+2019-01-24 16:57:39,679 DEBUG (BaseJdbcLogger.java:145)- ==>  Preparing: select mi.meeting_code,mu.meeting_id,mu.user_id, ui.company_name,ui.department,ui.head_portrait, ui.phone_num,ui.sex,ui.user_name from meeting_user mu INNER JOIN meeting_info mi on mu.meeting_id=mi.id LEFT JOIN user_info ui on mu.user_id=ui.id where mi.meeting_code=? 
+2019-01-24 16:57:39,687 DEBUG (BaseJdbcLogger.java:145)- ==> Parameters: 01170003(String)
+2019-01-24 16:57:39,763 DEBUG (BaseJdbcLogger.java:145)- <==      Total: 3

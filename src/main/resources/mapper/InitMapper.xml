@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="snod.com.cn.dao.InitDao">
+	
+	
+	
+	<select id="findSysparam" resultType="java.util.Map">
+		select 
+		sp.app_android_upgrade_version,
+		sp.app_android_upgrade_version_introduction,
+		sp.app_android_upgrade_version_view,
+		sp.app_ios_upgrade_version,
+		sp.app_ios_upgrade_version_introduction,
+		sp.app_ios_upgrade_version_view,
+		sp.id,
+		sp.is_new,
+		sp.upgrade_content
+		from sysparam  sp where sp.is_new=1
+	</select>
+	
+</mapper>

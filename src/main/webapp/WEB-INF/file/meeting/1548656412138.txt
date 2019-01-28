@@ -1,0 +1,13 @@
+createMeeting: onResponse: {"code":0,"message":"成功","data":{"meetingInfo":{"id":20,"meetingCode":"10170012","meetingName":"会议测试名称","meetingStartDate":null,"meetingEndDate":null,"meetingAddress":"会议测试地址","printLan":1,"meetingPasswd":"123456","status":1,"createTime":1548209037711,"createUserId":9,"createUserName":null,"meetingpreStartTime":1548210739572,"meetingDetail":null}}}
+
+cancelMeeting: onResponse: {"code":0,"message":"成功","data":null}
+
+
+queryMeetingList: onResponse: {"code":0,"message":"成功","data":{"meetingInfoList":[{"id":15,"meetingCode":"10170007","meetingName":"1","meetingStartDate":null,"meetingEndDate":null,"meetingAddress":"1","printLan":1,"meetingPasswd":"1","status":1,"createTime":1548052888000,"createUserId":9,"createUserName":null,"meetingDetail":[{"id":12,"meetingId":15,"deviceNum":null,"meetingContent":null,"meetingTranslate":null,"meetingContentFile":null,"meetingTranslateFile":null}]},{"id":16,"meetingCode":"10170008","meetingName":"会议测试名称","meetingStartDate":null,"meetingEndDate":null,"meetingAddress":"会议测试地址","printLan":1,"meetingPasswd":"123456","status":1,"createTime":1548151293000,"createUserId":9,"createUserName":null,"meetingDetail":[{"id":13,"meetingId":16,"deviceNum":null,"meetingContent":null,"meetingTranslate":null,"meetingContentFile":null,"meetingTranslateFile":null}]},{"id":17,"meetingCode":"10170009","meetingName":"会议测试名称","meetingStartDate":null,"meetingEndDate":null,"meetingAddress":"会议测试地址","printLan":1,"meetingPasswd":"123456","status":1,"createTime":1548206262000,"createUserId":9,"createUserName":null,"meetingDetail":[{"id":14,"meetingId":17,"deviceNum":null,"meetingContent":null,"meetingTranslate":null,"meetingContentFile":null,"meetingTranslateFile":null}]},{"id":19,"meetingCode":"10170011","meetingName":"会议测试名称","meetingStartDate":null,"meetingEndDate":null,"meetingAddress":"会议测试地址","printLan":1,"meetingPasswd":"123456","status":1,"createTime":1548206779000,"createUserId":9,"createUserName":null,"meetingDetail":[{"id":16,"meetingId":19,"deviceNum":null,"meetingContent":null,"meetingTranslate":null,"meetingContentFile":null,"meetingTranslateFile":null}]}]}}
+
+
+startMeeting: onResponse: hello
+
+inviteMeetingPeople: onResponse: hello
+
+endMeeting: onResponse: hello
